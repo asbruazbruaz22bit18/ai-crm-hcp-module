@@ -1,0 +1,105 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background: #f5f7fb;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.form-section {
+  flex: 2;
+}
+
+.chat-section {
+  flex: 1;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+.card input,
+.card textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+}
+
+.radio-group {
+  display: flex;
+  gap: 20px;
+  margin: 10px 0;
+}
+
+.chat-card {
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-box {
+  background: #eaf4ff;
+  padding: 10px;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.chat-input {
+  width: 100%;
+  height: 80px;
+  padding: 10px;
+  margin-top: auto;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background: #1677ff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.chat-box {
+  flex: 1;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.user-msg {
+  align-self: flex-end;
+  background: #1677ff;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 70%;
+}
+
+.bot-msg {
+  align-self: flex-start;
+  background: #e5e5e5;
+  padding: 8px 12px;
+  border-radius: 10px;
+  margin: 5px;
+  max-width: 70%;
+}
